@@ -170,10 +170,6 @@ class User(ABC):
 
 
 
-
-    
-    
-
 class Admin(User):
     products = {}  # Stores products
 
@@ -243,14 +239,6 @@ class Customer(User):
 
 
 c1=Customer('customer1',123)
-
-
-
-
-
-
-
-
 
 
 
@@ -351,24 +339,10 @@ c2=ECommerce()
 
 
 
-
-
-
-
-
-
-
-
-                
-
 ### Run the application
 if __name__ == "__main__":
     ecommerce_app = ECommerce()
     ecommerce_app.run()
-
-
-
-
 
 
 
